@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.passport{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    overflow: hidden;
+    background-color: blue;
+}
+
+.passport>img{
+    height: 130%;
+    width: 130%;
+    object-fit: cover;
+    opacity:0.9;
+
+}
+
+.images-container{
+    height: 100vh;
+    width: 100%;
+}
+
+.images-container > img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: top center;
+}
+.pass-img{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    object-fit: cover;
+    overflow: hidden;
+    background-color: black;
+    opacity: 0.9;
+
+    
+
+}

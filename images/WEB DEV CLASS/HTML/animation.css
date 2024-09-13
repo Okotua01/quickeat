@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.circle-container{
+    background: greenyellow;
+    height: 100vh;
+    width: 100%;
+    padding: .5rem;
+
+}
+.circle{
+    width: 145px;
+    height: 145px;
+    background: blue;
+    border-radius: 100%;
+    animation-name: loud;
+    animation-duration:6s ;
+    position: absolute;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+   
+
+
+}
+@keyframes loud{
+    0%{
+        top: 0;
+        left: 0;
+        background-color: black;
+    }
+    20%{
+        top:27rem;
+        left: 24rem;
+        background-color: red;
+     }
+     40%{
+        top: 0;
+        left: 40rem;
+        background-color: white;
+
+     }
+     60%{
+        top: 27rem;
+        left:70rem; 
+        background-color:pink;
+     }
+     80%{
+        top: 0%;
+        left: 70rem;
+        background: white;
+     }
+     100%{
+        top: 0;
+        left: 0;
+        background-color: orange;
+     }
+
+}

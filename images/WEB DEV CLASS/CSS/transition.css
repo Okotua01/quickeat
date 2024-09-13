@@ -1,0 +1,72 @@
+button{
+    background-color: green;
+    padding: .7rem 2.5rem;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 100px;
+
+    transition:background-color 0.7s linear;
+
+   
+}
+.one-1{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+button:hover{
+    background-color: rgb(113, 248, 113);
+    color:red;
+    font-size: 15px;
+    text-decoration: line-through;
+}
+.shoe{
+    display: block;
+    width: 230px;
+    transform: rotate(-10deg);
+}
+.box-1{
+    width: 8rem;
+    height: 8rem;
+    background-color:red;
+    margin-top: 2rem;
+    /* transform: translate(10px 100px); */
+    transition: all .3s;
+
+}
+.box-1:hover{
+    /* transform: scale(3 ,4); */
+    transform: scaleY(3);
+}
+.shoe{
+    display: block;
+
+  
+}
+.shoe:hover
+
+.box-2{
+    width: 8rem;
+    height: 8rem;
+    background-color:red;
+    margin-top: 2rem;
+    /* transform: translate(10px 100px); */
+    transition: all .3s;
+
+}
+.box-2:hover{
+    transform: skew(30deg,15deg);
+}
+
+p{
+    color: black;
+    text-align: center;
+    padding-top: 3rem;
+    font-size:larger;
+
+}
+p:hover{
+    color: blue;
+}
+
+

@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+}
+p{
+    background-image: url("./IMAGES/Gear-Review-Apple_iphone13_hero_us_09142021.webp");
+    color: chocolate;
+    height: 100vh;
+    width: 100%;
+    font-size: larger;
+    line-height: 2;
+}
